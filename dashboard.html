@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	 <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+
+
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <link href="all.css" rel="stylesheet">
+
+    <script src="table.js"></script>
+    </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Virtual Labs</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-main">
+    	<h1 class="page-header">Dashboard</h1>
+    	<div class="display-info"></div>
+    	<a class="btn btn-lg btn-primary" href="#" role="button" onclick=addRow('dataTable')>Display Data</a>
+    	<div class="container">
+    	</div>
+    </div>
+
+
+
+
+    <div class="jumbotron">
+    	<div class="container">
+    		<div class="table-responsive">
+    			<TABLE id="dataTable" class="table table-striped">
+    				<TR>
+    					<th>a</th>
+    					<th>b</th>
+    					<th>c</th> 
+    				</TR>
+    			</TABLE>
+    		</div>
+    	</div>
+    </div>
+
+    <div class="container-main">
+    	<h2 class="page-header">Dashboard</h2>
+    	<div class="display-info">
+    		<div class="table-responsive">
+    			<TABLE id="dataTable1" class="table table-striped">
+    				<TR>
+    					<th>a</th>
+    					<th>b</th>
+    					<th>c</th> 
+    				</TR>
+    			</TABLE>
+    		</div>
+
+    	</div>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+</body>
+</html>
+
+
